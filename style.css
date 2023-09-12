@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.logo{
+    font-family: Brush Script MT;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    opacity: 30%;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+body{    
+    background-color: #000000;
+}
+#Home img{
+    margin-top: 100px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border-top: 5px solid aqua;
+    border-right: 5px solid purple;
+    border-bottom: 5px solid aqua;
+    border-left: 5px solid purple;
+}
+.first{
+    text-align: center;
+}
+.first h1{
+    color: white;
+    margin-top: 10px;
+}
+.second{
+    color: white;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.Pfirst{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.card{
+    text-align: center;
+    display: flex;
+    border-top: 10px solid purple;
+    border-right: 10px solid aqua;
+    border-left: 10px solid aqua;
+    border-bottom: 10px solid purple;
+
+}
+.btn{
+    margin-top: 10px;
+    background-color: aqua;
+}
+.heading{
+    color: white;
+    margin: 10px 0 30px 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.formTitle{
+    margin-top: 40px;
+}
+.saylani{
+    height: 180px;
+}
+#Project{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.blocktopiaimg{
+    height: 180px;
+}
+.calculator{
+    height: 180px;
+}
+.clock{
+    height: 180px;
+}
+.btn:hover{
+    background-color: aqua;
+    opacity: 40%;
+}
+.btnOperate{
+    display: none;
+}
+.Lessbtn{
+    text-align: center;
+    margin-bottom: 30px;
+    display: none;
+}
+.Lessbtn button{
+    width: 100px;
+}
+.Morebtn{
+    text-align: center;
+    margin-bottom: 30px;
+    display: block;
+}
+.Morebtn button{
+    width: 100px;
+}
+.aboutSection{
+    width: 500px;
+    height: 300px;
+    border-top: 10px solid purple;
+    border-right: 10px solid aqua;
+    border-left: 10px solid aqua;
+    border-bottom: 10px solid purple;
+    margin: 50px auto;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.aboutSection ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.resume{
+    text-align: center;
+    color: white;
+}
+.fa-brands{
+    color: white;
+    font-size: 50px;
+}
+.fa-regular{
+    color: white;
+    font-size: 50px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+footer{
+    border-top: 1px solid white;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: lightblue;
+}
